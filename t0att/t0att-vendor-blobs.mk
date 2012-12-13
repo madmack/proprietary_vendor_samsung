@@ -27,7 +27,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/smdexe:system/bin/smdexe \
     $(LOCAL_PATH)/proprietary/system/bin/qmiproxy:system/bin/qmiproxy \
     $(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
-    $(LOCAL_PATH)/proprietary/system/bin/qmuxd:system/bin/qmuxd
+    $(LOCAL_PATH)/proprietary/system/bin/qmuxd:system/bin/qmuxd \
+    $(LOCAL_PATH)/proprietary/system/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    $(LOCAL_PATH)/proprietary/system/bin/LE_dut:system/bin/LE_dut
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
@@ -38,7 +40,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsensorservice.so:system/lib/libsensorservice.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgps.so:system/lib/libgps.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.smdk4x12.so:system/lib/hw/hwcomposer.smdk4x12.so \
     $(LOCAL_PATH)/proprietary/system/lib/libidl.so:system/lib/libidl.so \
     $(LOCAL_PATH)/proprietary/system/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     $(LOCAL_PATH)/proprietary/system/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -59,13 +60,33 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+    $(LOCAL_PATH)/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_SamsungRec_V02002.so:system/lib/lib_SamsungRec_V02002.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcsd-client.so:system/lib/libcsd-client.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libssaudio-client.so:system/lib/libssaudio-client.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtinyalsa.so:system/lib/libtinyalsa.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.smdk4x12.so:system/lib/hw/vendor-camera.exynos4.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.smdk4x12.so:system/lib/hw/sensors.smdk4x12.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhubs.smdk4x12.so:system/lib/hw/sensorhubs.smdk4x12.so
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhubs.smdk4x12.so:system/lib/hw/sensorhubs.smdk4x12.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.goldfish.so:system/lib/hw/audio.primary.goldfish.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.smdk4x12.so:system/lib/hw/audio.primary.smdk4x12.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.wfd.smdk4x12.so:system/lib/hw/audio.wfd.smdk4x12.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.smdk4x12.so:system/lib/hw/audio_policy.smdk4x12.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/power.goldfish.so:system/lib/hw/power.goldfish.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
