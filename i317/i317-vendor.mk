@@ -13,6 +13,6 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/samsung/t0att/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/samsung/i317/overlay
 
-$(call inherit-product, vendor/samsung/t0att/t0att-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/i317/i317-vendor-blobs.mk)
